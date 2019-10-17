@@ -16,3 +16,4 @@ variable "lin-os" {
 resource "random_pet" "server" {
   length    = "1"
   separator = "-"
+}
