@@ -7,7 +7,7 @@ resource "null_resource" "helloWorld" {
 
 ###Varialbe for the OS type
 variable "lin-os" {
-  type        = "string"
+  type        = string
   default     = "lin"
   description = "Name convention putting the OS in the name of the system"
 }
@@ -17,3 +17,4 @@ resource "random_pet" "server" {
   length    = "1"
   separator = "-"
 }
+
